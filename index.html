@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Navigation Demo</title>	
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<header><h1>Best Website Since Google</h1></header>		
+		<nav>
+			<ul>
+				<a href="#"><li>Home</li></a>
+				<a href="#"><li>About</li></a>
+				<a href="#"><li>Blog</li></a>				
+				<a href="#"><li>Shop</li></a>
+				<a href="#"><li>Gallery</li></a>		
+				<a href="#"><li>Contact</li></a>
+			</ul>
+			<div class="handle">Menu</div>
+		</nav>
+		<section>
+			There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+		</section>
+		<script>
+			$('.handle').on('click', function() {
+				$('nav ul').toggleClass('showing');
+			});
+		</script>
+	</body>
+</html>
