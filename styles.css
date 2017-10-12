@@ -59,6 +59,13 @@ section {
 	display: none;
 }
 
+.button-line {
+	width: 35px;
+	height: 5px;
+	background-color: white;
+	margin: 6px 0;
+}
+
 @media (max-width: 580px) {
 	nav ul {
 		max-height: 0;
@@ -76,6 +83,8 @@ section {
 	}
 
 	.handle {
-		display: block;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 	}
 }
